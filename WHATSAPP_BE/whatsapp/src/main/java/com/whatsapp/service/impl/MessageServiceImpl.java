@@ -10,10 +10,13 @@ import com.whatsapp.repository.MessageRepository;
 import com.whatsapp.request.SendMessageRequest;
 import com.whatsapp.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.messaging.simp.SimpMessagingTemplate;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
+@Service
 public class MessageServiceImpl implements MessageService {
 
     @Autowired
@@ -25,7 +28,7 @@ public class MessageServiceImpl implements MessageService {
     @Autowired
     private ChatServiceImpl chatService;
 
-    @Autowired
+    @Autowired(required = true)
     private SimpMessagingTemplate messagingTemplate;
 
     @Override

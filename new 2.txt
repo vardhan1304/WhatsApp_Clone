@@ -1,0 +1,90 @@
+Microsoft Windows [Version 10.0.22631.4460]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\PROJECT\WHATSAPP_FULLSTACK\WHATSAPP_FE\client>npm create vite@latest
+Need to install the following packages:
+create-vite@5.5.5
+Ok to proceed? (y) y
+
+
+> npx
+> create-vite
+
+√ Project name: ... whatsapp
+√ Select a framework: » React
+√ Select a variant: » JavaScript
+
+Scaffolding project in D:\PROJECT\WHATSAPP_FULLSTACK\WHATSAPP_FE\client\whatsapp...
+
+Done. Now run:
+
+  cd whatsapp
+  npm install
+  npm run dev
+
+
+D:\PROJECT\WHATSAPP_FULLSTACK\WHATSAPP_FE\client> cd whatsapp
+
+D:\PROJECT\WHATSAPP_FULLSTACK\WHATSAPP_FE\client\whatsapp>npm install
+
+added 248 packages, and audited 249 packages in 2m
+
+102 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\PROJECT\WHATSAPP_FULLSTACK\WHATSAPP_FE\client\whatsapp>npm run dev
+
+> whatsapp@0.0.0 dev
+> vite
+
+
+  VITE v5.4.11  ready in 303 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+D:\PROJECT\WHATSAPP_FULLSTACK\WHATSAPP_FE\client\whatsapp>npm install -D tailwindcss postcss autoprefixer
+
+added 89 packages, and audited 338 packages in 9s
+
+127 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\PROJECT\WHATSAPP_FULLSTACK\WHATSAPP_FE\client\whatsapp>npx tailwindcss init -p
+
+Created Tailwind CSS config file: tailwind.config.js
+Created PostCSS config file: postcss.config.js
+
+D:\PROJECT\WHATSAPP_FULLSTACK\WHATSAPP_FE\client\whatsapp>npm install react-router-dom
+
+added 3 packages, and audited 341 packages in 53s
+
+127 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\PROJECT\WHATSAPP_FULLSTACK\WHATSAPP_FE\client\whatsapp>npm install @mui/material @emotion/react @emotion/styled
+
+added 44 packages, and audited 385 packages in 1m
+
+135 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\PROJECT\WHATSAPP_FULLSTACK\WHATSAPP_FE\client\whatsapp>npm install @mui/icons-material
+
+added 1 package, and audited 386 packages in 39s
+
+136 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\PROJECT\WHATSAPP_FULLSTACK\WHATSAPP_FE\client\whatsapp>

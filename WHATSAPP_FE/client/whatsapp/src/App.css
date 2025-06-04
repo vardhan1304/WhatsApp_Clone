@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-300; /* You can replace 200 with any shade from 100 to 900 */
+}
